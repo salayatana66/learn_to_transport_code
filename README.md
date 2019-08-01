@@ -20,7 +20,14 @@ target distributions.
 the experiments.
 * `general_utils.py`: Generic utilities, e.g. creating model directories,
 training PyTorch models.
+* `estimators.py`: The PyTorch models.
 * `prob_dist_meas.py`: Functions to create *distances* between
 probability distributions.
 * `sinkhorn.py`: A plain numpy implementation of Sinkhorn's algorithm.
 
+### Experiment scripts
+* `dual_transport_seguy.py`: The algorithms based on Subsection 3.5 of the paper.
+* `heuristic_.*_flow.py`: The algorithms based on Subsection 3.3 in the paper **without**
+using the transport cost as a regularizer.
+* `heuristic_.*_w_tpreg_flow': The algorithms based on Subsection 3.3 in the paper 
+**using** the transport cost as a regularizer.
