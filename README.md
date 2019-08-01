@@ -26,8 +26,10 @@ probability distributions.
 * `sinkhorn.py`: A plain numpy implementation of Sinkhorn's algorithm.
 
 ### Experiment scripts
+* `adversarial_transport.py`: The algorightms based on Subsection 3.4 in the paper.
 * `dual_transport_seguy.py`: The algorithms based on Subsection 3.5 of the paper.
 * `heuristic_.*_flow.py`: The algorithms based on Subsection 3.3 in the paper **without**
 using the transport cost as a regularizer.
-* `heuristic_.*_w_tpreg_flow': The algorithms based on Subsection 3.3 in the paper 
+* `heuristic_.*_w_tpreg_flow`: The algorithms based on Subsection 3.3 in the paper 
 **using** the transport cost as a regularizer.
+* `supervised_.*`: The algorithms base on Subsection 3.6 of the paper.
