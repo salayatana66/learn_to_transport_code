@@ -1,5 +1,5 @@
-# learn_to_transport_code
-WIP
+# Code for Learning To Transport With Neural Networks
+GitHub code for the paper ???
 
 ## Structure
 Code is organized in common modules & 
