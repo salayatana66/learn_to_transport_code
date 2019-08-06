@@ -1,5 +1,5 @@
 # Code for Learning To Transport With Neural Networks
-GitHub code for the paper ???
+GitHub code for the paper [http://arxiv.org/abs/1908.01394](http://arxiv.org/abs/1908.01394).
 
 ## Structure
 Code is organized in common modules & 
